@@ -1,0 +1,193 @@
+.job-item-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100vw;
+  min-height: 100vh;
+  max-height: 100%;
+  font-family: 'Roboto';
+  background-color: #000000;
+}
+
+.job-item-success-container {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 82vh;
+  max-height: 100%;
+  padding: 20px;
+}
+
+.top-container {
+  background-color: #272727;
+  width: 100%;
+  min-height: 100%;
+  max-height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.md-icon {
+  color: white;
+}
+
+.desc-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.description-heading {
+  color: white;
+  font-size: 18px;
+}
+
+.violet-text {
+  color: #6366f1;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit {
+  height: 12px;
+  margin-left: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+.skills-heading {
+  color: white;
+  font-size: 14px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+  min-width: 120px;
+  max-width: auto;
+}
+
+.skill-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.skill-name {
+  color: white;
+  font-size: 12px;
+}
+
+.life-at-company-heading {
+  color: white;
+  font-size: 14px;
+}
+
+.life-at-company-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.life-at-company-description {
+  color: white;
+  font-size: 12px;
+  width: 66%;
+  height: 20%;
+  align-self: flex-start;
+  line-height: 1.5;
+  padding: 0px;
+}
+
+.life-at-company-image {
+  width: 32%;
+  height: 18%;
+  align-self: flex-start;
+  margin-top: 12px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.similar-heading {
+  color: white;
+  font-size: 25px;
+}
+
+.similar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 100%;
+}
+
+.similar-item {
+  background-color: #272727;
+  width: 220px;
+  min-height: 400px;
+  max-height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.role-names {
+  color: white;
+  font-size: 14px;
+}
+
+.md-icons {
+  color: white;
+  margin-right: 5px;
+}
+
+.icon-names {
+  color: white;
+  font-size: 10px;
+}

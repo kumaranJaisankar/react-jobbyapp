@@ -1,0 +1,55 @@
+.nav-header {
+  background-color: #272727;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 10px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.logout-btn {
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.nav-link-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  gap: 18px;
+}
+.home-logo-size {
+  width: 150px;
+}
+@media screen and (max-width: 576px) {
+  .home-logo-size {
+    width: 120px;
+    margin-right: 10px;
+  }
+  .nav-link {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .logout-btn {
+    margin-right: 10px;
+    width: 80px;
+  }
+  .nav-link-list {
+    gap: 10px;
+  }
+}
